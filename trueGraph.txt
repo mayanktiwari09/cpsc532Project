@@ -1,0 +1,18 @@
+Graph Nodes:
+Age;BMI;Aspirin;StatinUse;Cancer;PSA
+
+Graph Edges:
+1. Age --> StatinUse
+2. Age --> BMI
+3. Age --> Aspirin
+4. Age --> Cancer
+5. Age --> PSA
+6. BMI --> StatinUse
+7. BMI --> Cancer
+8. BMI --> PSA
+9. BMI --> Aspirin
+10. StatinUse --> Cancer
+11. StatinUse --> PSA
+12. Aspirin --> Cancer
+13. Aspirin --> PSA
+14. Cancer --> PSA
